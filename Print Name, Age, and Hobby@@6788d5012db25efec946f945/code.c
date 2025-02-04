@@ -5,10 +5,10 @@ int main()
     int age;
     char hobby[15];
     scanf("%s",name);
-    scanf("%d",age);
+    scanf("%d",&age);
     scanf("%s",hobby);
-    printf("Name:%s\n",name);
-    printf("Age:%s\n",age);
-    printf("Hobby:%s\n",hobby);
+    printf("Name: %s\n",name);
+    printf("Age: %d\n",age);
+    printf("Hobby: %s\n",hobby);
     return 0;
 }
