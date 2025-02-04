@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()
+int main ()
 {
-    char a[50],b[50];
-    scanf("%s%s",a,b);
-    printf("You entered: %s and %s",a,b);
+    double d;
+    scanf("%lf",&d);
+    printf("You entered: %.4lf",d);
     return 0;
 }
